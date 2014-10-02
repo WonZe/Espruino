@@ -157,9 +157,15 @@ writeHTML("""
 
 #top { white-space: nowrap; }
 #top2 { white-space: nowrap; }
+#top3 { white-space: nowrap; }
+#top4 { white-space: nowrap; }
 #bottom { white-space: nowrap; }
 #bottom2 { white-space: nowrap; }
+#bottom3 { white-space: nowrap; }
+#bottom4 { white-space: nowrap; }
 #left { text-align:right; }
+#left2 { text-align:left; }
+#right { text-align:left; }
 #right2 { text-align:right; }
 .toppin {
   -webkit-transform: rotate(-90deg);
@@ -179,6 +185,24 @@ writeHTML("""
   display: inline-block;
   width: 20px;
 }
+.top3pin {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  display: inline-block;
+  width: 20px;
+}
+.top4pin {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: inline-block;
+  width: 20px;
+}
 .bottompin {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -189,6 +213,24 @@ writeHTML("""
   width: 20px;
 }
 .bottom2pin {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  display: inline-block;
+  width: 20px;
+}
+.bottom3pin {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: inline-block;
+  width: 20px;
+}
+.bottom4pin {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);

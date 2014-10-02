@@ -987,8 +987,10 @@ void jshInit() {
   RCC_LSICmd(ENABLE); // low speed internal oscillator
 #endif
 
+#ifndef MINIM4
   // initialise button
   jshPinSetState(BTN1_PININDEX, JSHPINSTATE_GPIO_IN);
+#endif
 
   // PREEMPTION
   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4); 
